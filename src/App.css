@@ -1,0 +1,303 @@
+/* FOR TEXT & BOX SHADOW */
+.boxshadow:hover {
+  filter: drop-shadow(0 0 10px rgb(211, 239, 238));
+  
+}
+.boxtextshadow:hover{
+  
+  box-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px white;
+}
+/* FOR BACKGROUND DARK COLOR */
+.colDark {
+  background-color: rgb(9, 9, 27);
+}
+
+/* FOR TEXT BACKGROUND COLOR  */
+.textcolor {
+  background-image: linear-gradient(90deg, rgb(255, 0, 149), rgb(65, 139, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/* FOR SKILL & CONTAINER STYLING */
+.skillart:hover {
+  background-image: linear-gradient(90deg, rgb(255, 0, 149), rgb(68, 143, 255));
+  transform: translate(-5px, -5px);
+  transition-duration: 0.2s;
+  color: white;
+  box-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px white;
+  animation: shine 2.5s infinite linear;
+
+}
+
+/* FOR BUTTON STYLING */
+.btnart {
+  border-image: linear-gradient(to right, rgb(255, 0, 149), rgb(68, 143, 255)) 1;
+}
+
+.btnart:hover {
+  background-image: linear-gradient(90deg, rgb(255, 0, 149), rgb(68, 143, 255));
+  box-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px white;
+
+  color: white;
+}
+
+/* FOR INPUT BOX STYLING */
+.inputart {
+  background-color: rgb(9, 9, 27);
+  color: white;
+  border: 1px solid gray;
+}
+
+.inputart:active,
+.inputart:visited,
+.inputart:focus,
+.inputart::selection {
+  background-image: linear-gradient(90deg, rgb(255, 0, 149), rgb(68, 143, 255));
+  transform: translate(-5px, -5px);
+  transition-duration: 0.2s;
+  color: white;
+}
+
+/* FOR SHINY TEXT */
+.shiny-text {
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #fff, #aaa, #fff);
+  background-size: 200% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2.5s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+
+
+
+
+
+/* FOR BACKGROUND STYE-1 FOR PART-4  */
+.styled-div {
+  background-color: rgb(9, 9, 27);
+  position: relative;
+  overflow: hidden;
+}
+
+.styled-div::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 120%;
+  height: 3px;
+  background: linear-gradient(to right, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+  transform: rotate(20deg);
+  box-shadow: 0px 0px 10px rgba(255, 0, 149, 0.8);
+  animation: move-left-right 2s infinite;
+
+}
+
+.styled-div::after {
+  content: "";
+  position: absolute;
+  bottom: 15%;
+  right: -10%;
+  width: 120%;
+  height: 3px;
+  background: linear-gradient(to left, rgba(68, 143, 255, 1), rgba(68, 143, 255, 0));
+  transform: rotate(-25deg);
+  box-shadow: 0px 0px 10px rgba(68, 143, 255, 0.8);
+  animation: move-left-right 2s infinite;
+}
+
+@keyframes move-left-right {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+/* FOR BACKGROUND STYLE-2 Body Part-2 */
+
+
+.diagonal-gradient-border {
+  background-color: rgb(9, 9, 27);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.diagonal-gradient-border::before,
+.diagonal-gradient-border::after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 5px;
+  background: linear-gradient(to right, rgba(255, 0, 149, 1), rgb(68, 143, 255));
+  animation: diagonal-border 3s infinite alternate;
+}
+
+.diagonal-gradient-border::before {
+  top: 10%;
+  left: -25%;
+  transform: rotate(45deg);
+}
+
+.diagonal-gradient-border::after {
+  bottom: 10%;
+  right: -25%;
+  transform: rotate(-45deg);
+}
+
+@keyframes diagonal-border {
+  0% {
+    left: -100%;
+    transform: rotate(45deg) translateX(0);
+    box-shadow: 0px 0px 15px rgba(255, 0, 149, 0.8);
+    background: linear-gradient(45deg, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+  }
+
+  50% {
+    left: 100%;
+    background: linear-gradient(45deg, rgba(68, 143, 255, 1), rgba(68, 143, 255, 0));
+    box-shadow: 0px 0px 15px rgba(68, 143, 255, 0.8);
+
+  }
+
+  100% {
+    left: -100%;
+    transform: rotate(45deg) translateX(20px);
+    box-shadow: 0px 0px 15px rgba(255, 0, 149, 0.8);
+    background: linear-gradient(45deg, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+
+  }
+}
+
+/* FOR BACKGROUND STYLE-3 Body Part-1*/
+
+.rotating-border-color-change {
+  background-color: rgb(9, 9, 27);
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.rotating-border-color-change::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: 0;
+  border: 5px solid transparent;
+  background: linear-gradient(45deg, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+  animation: rotate-border-color 4s infinite linear;
+  border-radius: 10px;
+}
+
+@keyframes rotate-border-color {
+  0% {
+    transform: rotate(0deg);
+    background: linear-gradient(45deg, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+  }
+
+  50% {
+    transform: rotate(180deg);
+    background: linear-gradient(45deg, rgba(68, 143, 255, 1), rgba(68, 143, 255, 0));
+  }
+
+  100% {
+    transform: rotate(360deg);
+    background: linear-gradient(45deg, rgba(255, 0, 149, 1), rgba(255, 0, 149, 0));
+  }
+}
+
+
+/* FOR PROFILE STYLING OF CIRCULAR ANIMATION */
+.circle-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating-border {
+  position: absolute;
+  box-shadow: 0px 0px 10px linear-gradient(90deg, rgb(255, 0, 149), rgb(68, 143, 255));
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgb(255, 0, 149), rgb(63, 140, 255));
+  animation: rotate 2s linear infinite;
+  z-index: 1;
+}
+
+.rotating-border::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-self: anchor-center;
+  align-self: anchor-center;
+  width: 40px;
+  height: 40px;
+  background: rgb(12, 12, 32);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.icon {
+  position: relative;
+  z-index: 3;
+  font-weight: bold;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* FOR BROWSER SCROLLBAR STYLE */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(255, 0, 149), rgb(63, 140, 255));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background:transparent;
+}
+
