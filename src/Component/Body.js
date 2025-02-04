@@ -13,13 +13,19 @@ import website from "../Media/download.png"
 import quizimg from "../Media/Quizimg.jpg"
 import todoimg from "../Media/ToDoimg.jpg"
 import bankimg from "../Media/Bankimg.jpg"
+import restaurantimg from "../Media/Restaurantimg.jpg"
 import '../App.css'
 
 export default function Body({ sectionRef, serviceClick, adduser, users, setname, setemail, setmessage }) {
     const skills = [skill1, skill2, skill3, skill4, skill5, skill6, skill7, skill8, skill9];
     const portsolios = [
         {
-            'name': 'Bank Management Coding (HTML, CSS, JS)',
+            'name': 'Resataurant Billing Coding (React.js, Node.js, Express.js, MySQL)',
+            'Link': 'https://dhruvtamrakar.github.io/Restaurant-Billing-System/#/',
+            'img': restaurantimg
+        },
+        {
+            'name': 'Bank Management Coding (React, CSS, JS)',
             'link': 'https://dhruvtamrakar.github.io/Bank_Management_Prototype/',
             'img': bankimg
         },
@@ -32,11 +38,6 @@ export default function Body({ sectionRef, serviceClick, adduser, users, setname
             'name': 'To-Do List Coding (HTML, CSS, JS)',
             'link': 'https://dhruvtamrakar.github.io/To_Do_List/',
             'img': todoimg
-        },
-        {
-            'name': '4-Website Coding (HTML, CSS, JS)',
-            'link': '#',
-            'img': website
         },
         {
             'name': '5-Website Coding (HTML, CSS, JS)',

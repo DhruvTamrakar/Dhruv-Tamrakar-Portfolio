@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Dhruv-Tamrakar-Portfolio/static/css/main.481d1508.css",
+    "main.js": "/Dhruv-Tamrakar-Portfolio/static/js/main.f481efd0.js",
+    "static/js/488.e87e3114.chunk.js": "/Dhruv-Tamrakar-Portfolio/static/js/488.e87e3114.chunk.js",
+    "static/media/boy.png": "/Dhruv-Tamrakar-Portfolio/static/media/boy.1d00d50b7ad484681077.png",
+    "static/media/Bankimg.jpg": "/Dhruv-Tamrakar-Portfolio/static/media/Bankimg.9bf3510fd1b64e80144f.jpg",
+    "static/media/skill-9.png": "/Dhruv-Tamrakar-Portfolio/static/media/skill-9.a61dc62c499ed3aeefdc.png",
+    "static/media/ToDoimg.jpg": "/Dhruv-Tamrakar-Portfolio/static/media/ToDoimg.f74b1ff931bd235c2b21.jpg",
+    "static/media/Quizimg.jpg": "/Dhruv-Tamrakar-Portfolio/static/media/Quizimg.040a8ab3f1a08c49f21b.jpg",
+    "static/media/skill-4.png": "/Dhruv-Tamrakar-Portfolio/static/media/skill-4.65cf50b1d66e05ffcbb2.png",
+    "static/media/skill-6.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-6.98f19032fb7491c827fc.webp",
+    "static/media/skill-1.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-1.f7c6266e5c5630f5d744.webp",
+    "static/media/skill-8.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-8.a40fa4b9b18e0fa70fc8.webp",
+    "static/media/skill-2.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-2.4480ae9f440a4be25bce.webp",
+    "static/media/skill-7.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-7.fb9360ab0788f237e8e1.webp",
+    "index.html": "/Dhruv-Tamrakar-Portfolio/index.html",
+    "static/media/skill-3.webp": "/Dhruv-Tamrakar-Portfolio/static/media/skill-3.710de9d7cd6c377c1997.webp",
+    "main.481d1508.css.map": "/Dhruv-Tamrakar-Portfolio/static/css/main.481d1508.css.map",
+    "main.f481efd0.js.map": "/Dhruv-Tamrakar-Portfolio/static/js/main.f481efd0.js.map",
+    "488.e87e3114.chunk.js.map": "/Dhruv-Tamrakar-Portfolio/static/js/488.e87e3114.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.481d1508.css",
+    "static/js/main.f481efd0.js"
+  ]
+}
